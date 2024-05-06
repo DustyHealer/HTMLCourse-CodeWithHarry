@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <!-- Textbox -->
+            <label for="txtName">Name:
+                <input id="txtName" name="txtName" type="text" placeholder="Enter Your Name">
+            </label>
+            <br>
+            <!-- Radio Button -->
+            <label for="sectionida">Section:
+                <input id="sectionida" name="section" type="radio" placeholder="Section" value="Section A">Section A
+            </label>
+            <label for="sectionidb">
+                <input id="sectionidb" name="section" type="radio" placeholder="Section" value="Section B">Section B
+            </label>
+            <label for="sectionidc">
+                <input id="sectionidc" name="section" type="radio" placeholder="Section" value="Section C">Section C
+            </label>
+            <br>
+            <!-- Checkbox -->
+            <label for="foodcanteen">Want Food:
+                <input type="checkbox" id="foodcanteen" class="red" name="canteen">
+            </label>
+            <br>
+            <!-- Textarea -->
+            <label for="explain">Reason to join:
+                <textarea name="explain" id="explain" cols="30" rows="10"
+                    placeholder="Explain why you want to join"></textarea>
+            </label>
+            <br>
+            <select name="car" id="car">Select your car
+                <option value="no-car">Select your car</option>
+                <option value="omni">Omni</option>
+                <option value="omni2">Omni2</option>
+                <option value="Dzire">Dzire</option>
+                <option value="Creta">Creta</option>
+            </select>
+
+        </form>
+    </div>
+</body>
+
+</html>
